@@ -1,0 +1,4 @@
+interface:
+  display_name: "Onboard Me"
+  short_description: "Build verified codebase understanding"
+  default_prompt: "Use $onboardme to guide me through this codebase with evidence-backed missions."
