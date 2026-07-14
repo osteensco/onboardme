@@ -33,15 +33,15 @@ npx skills add . --list
 
 ## What's included
 
-- `SKILL.md` contains the main onboarding workflow.
-- `references/` contains the investigation method, mission catalog, and
+- `skills/onboardme/SKILL.md` contains the main onboarding workflow.
+- `skills/onboardme/references/` contains the investigation method, mission catalog, and
   assessment rubric loaded by the skill when needed.
-- `assets/templates/` contains reusable apprenticeship artifacts.
-- `agents/openai.yaml` contains the OpenAI agent interface metadata.
+- `skills/onboardme/assets/templates/` contains reusable apprenticeship artifacts.
+- `skills/onboardme/agents/openai.yaml` contains the OpenAI agent interface metadata.
 
 When asked to persist an apprenticeship, the skill stores all generated
 artifacts under the target repository's `.onboardme/` directory and adds
 `/.onboardme/` to that repository's root `.gitignore`.
 
-The repository intentionally keeps `SKILL.md` at its root. This is a standard
-Skills CLI discovery location, and the referenced files are installed with it.
+The complete skill bundle lives under `skills/onboardme/` so Skills CLI installs
+its referenced files together with `SKILL.md`.
