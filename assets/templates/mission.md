@@ -1,5 +1,10 @@
 # Mission: <!-- concise behavior-oriented title -->
 
+- Status: planned | active | awaiting teach-back | complete | blocked | superseded
+- Started:
+- Completed:
+- Prerequisites:
+
 ## Objective
 
 ## Competencies

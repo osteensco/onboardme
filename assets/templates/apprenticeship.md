@@ -38,6 +38,10 @@
 
 ### Current mission
 
+- Status: planned | active | awaiting teach-back | complete | blocked | superseded
+- Started:
+- Completed:
+- Prerequisites:
 - Objective:
 - Assistance level:
 - Constraints:
@@ -59,11 +63,16 @@
 - [ ] Locate behavior from an external symptom
 - [ ] Trace a representative flow
 - [ ] Explain relevant domain rules and state
+- [ ] Explain failure and partial-failure behavior
+- [ ] Investigate unfamiliar behavior independently
 - [ ] Diagnose a realistic failure
 - [ ] Add or improve a focused test
 - [ ] Make a safe local change
+- [ ] Make a safe vertical change
 - [ ] Assess a cross-cutting change
 
 ## Final independent challenge
 
 <!-- Keep the solution and internal evaluation notes out of the learner-facing prompt. -->
+
+- Status: not planned | planned | active | awaiting assessment | complete

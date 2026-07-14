@@ -30,7 +30,7 @@ For a representative behavior, determine:
 - focused tests;
 - historical rationale where the implementation is surprising.
 
-Ask the learner to predict each major transition before following it. Confirm static conclusions dynamically when safe and proportionate through a focused test, breakpoint, local trace, structured log, query observation, or temporary instrumentation.
+Ask the learner to predict each major transition before following it. Confirm static conclusions dynamically when safe and proportionate through an existing focused test, debugger, local trace, structured log, or query observation. Remain read-only unless the mission explicitly authorizes changes.
 
 ## Search strategy to teach
 

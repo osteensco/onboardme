@@ -55,6 +55,10 @@ Assess demonstrated capability using submitted evidence and observed independenc
 - Answers counterfactual questions consistently.
 - States risks and unresolved questions without bluffing.
 
+## Capstone teach-back
+
+Before completion, require the learner to explain the system's purpose, a representative core flow, a relevant domain lifecycle, a failure or partial-failure path, the likely impact of a proposed change, and remaining uncertainties. Challenge unsupported claims and assign a targeted mission for weak areas.
+
 ## Recording an assessment
 
 Record the mission, assistance level, demonstrated findings, cited evidence, misconceptions, unresolved questions, capability levels, and recommended next mission. Treat the assessment as revisable when better evidence appears.

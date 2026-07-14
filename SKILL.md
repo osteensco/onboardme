@@ -13,7 +13,7 @@ Develop verified, independent codebase understanding. Optimize for the learner's
 - Ask the learner to predict before explaining.
 - Begin read-only and respect repository instructions and safety boundaries.
 - Require evidence for material claims.
-- Label each claim `verified`, `documented`, `inferred`, `contradicted`, or `unknown`.
+- Label each material map or assessment claim `verified`, `documented`, `inferred`, `contradicted`, or `unknown`.
 - Never convert naming, structure, or an AI inference into project doctrine.
 - Reduce assistance as competence grows.
 - Do not mark competence from reading, conversation, or agent-led work alone.
@@ -23,7 +23,7 @@ Develop verified, independent codebase understanding. Optimize for the learner's
 
 Use **Bootstrap mode** when no apprenticeship artifacts exist or the learner's role is unknown. Use **Mentor mode** when continuing established missions. Use **Assessment mode** when the user asks to test understanding. Use **Refresh mode** after meaningful repository changes.
 
-Store project-specific artifacts under `docs/apprenticeship/` unless repository conventions require another location. For a small project, use the single-file template in `assets/templates/apprenticeship.md`. For a larger project, copy the map, mission, and learning-record templates separately. Do not create artifacts unless the user asks to establish or persist the apprenticeship.
+Store project-specific artifacts under `docs/apprenticeship/` unless repository conventions require another location. For a small project, use the single-file template in `assets/templates/apprenticeship.md`. For a larger project, retain that template as the control document for the objective, safety boundaries, ordered mission queue, current mission, and final-challenge status; move detailed map, mission, and learning-record content into files copied from their respective templates. Do not create artifacts unless the user asks to establish or persist the apprenticeship.
 
 ## Bootstrap an apprenticeship
 
@@ -47,6 +47,8 @@ Read `references/investigation-method.md` when bootstrapping a repository or tra
 6. **Challenge:** Ask about at least one failure path or counterfactual.
 7. **Teach back:** Ask the learner to explain the behavior, its domain meaning, side effects, risks, and uncertainties.
 8. **Record:** Capture assistance level, evidence, demonstrated capability, misconceptions, open questions, and the next mission.
+
+Remain read-only unless the current mission explicitly authorizes changes.
 
 Use these assistance levels:
 
