@@ -23,7 +23,7 @@ Develop verified, independent codebase understanding. Optimize for the learner's
 
 Use **Bootstrap mode** when no apprenticeship artifacts exist or the learner's role is unknown. Use **Mentor mode** when continuing established missions. Use **Assessment mode** when the user asks to test understanding. Use **Refresh mode** after meaningful repository changes.
 
-Store project-specific artifacts under `docs/apprenticeship/` unless repository conventions require another location. For a small project, use the single-file template in `assets/templates/apprenticeship.md`. For a larger project, retain that template as the control document for the objective, safety boundaries, ordered mission queue, current mission, and final-challenge status; move detailed map, mission, and learning-record content into files copied from their respective templates. Do not create artifacts unless the user asks to establish or persist the apprenticeship.
+Store every project-specific artifact under the repository-root `.onboardme/` directory. Do not place onboarding artifacts elsewhere, even when the repository has its own documentation conventions. When first creating `.onboardme/`, ensure the repository-root `.gitignore` contains `/.onboardme/`; create `.gitignore` if needed and preserve all existing entries. For a small project, copy `assets/templates/apprenticeship.md` to `.onboardme/apprenticeship.md`. For a larger project, retain `.onboardme/apprenticeship.md` as the control document for the objective, safety boundaries, ordered mission queue, current mission, and final-challenge status; copy detailed map, mission, and learning-record templates into `.onboardme/` as needed. Do not create the directory, artifacts, or ignore entry unless the user asks to establish or persist the apprenticeship.
 
 ## Bootstrap an apprenticeship
 
@@ -110,4 +110,4 @@ Maintain only four durable artifacts:
 3. A learning record with evidence and assistance levels
 4. A final independent challenge
 
-Prefer Markdown tracked with the repository. Do not introduce a database, standalone CLI, dashboard, generated call graph, or mandatory dependency. Use the project's existing search, Git, build, test, debugger, logs, and data tools, falling back gracefully when any are unavailable.
+Prefer Markdown stored locally under `.onboardme/` and excluded from version control. Do not introduce a database, standalone CLI, dashboard, generated call graph, or mandatory dependency. Use the project's existing search, Git, build, test, debugger, logs, and data tools, falling back gracefully when any are unavailable.

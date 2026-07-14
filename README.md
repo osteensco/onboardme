@@ -39,5 +39,9 @@ npx skills add . --list
 - `assets/templates/` contains reusable apprenticeship artifacts.
 - `agents/openai.yaml` contains the OpenAI agent interface metadata.
 
+When asked to persist an apprenticeship, the skill stores all generated
+artifacts under the target repository's `.onboardme/` directory and adds
+`/.onboardme/` to that repository's root `.gitignore`.
+
 The repository intentionally keeps `SKILL.md` at its root. This is a standard
 Skills CLI discovery location, and the referenced files are installed with it.
